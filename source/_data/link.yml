@@ -1,0 +1,10 @@
+class:
+  class_name: 友情链接
+  link_list:
+    1:
+      name: 我的CSDN博客
+      link: https://blog.csdn.net/Healer66
+      avatar: http://healer.top/img/1_healer66.jpg
+      descr: 时间并不会因为你的迷茫和迟疑而停留。
+    
+
