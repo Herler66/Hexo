@@ -9,7 +9,7 @@ menu:
   时间轴: /archives/ || fa fa-archive
   标签: /tags/ || fa fa-tags
   分类: /categories/ || fa fa-folder-open
-  清单||fa fa-list:
+  娱乐||fa fa-list:
     - 音乐 || /music/ || fa fa-music
     - 电影 || /movies/ || fa fa-film
     - 照片 || /photos/ || fa fa-photo
@@ -73,7 +73,7 @@ algolia_search:
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -656,22 +656,6 @@ CDN:
  
 
  #宠物
-live2d:
-  enable: false
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  model:
-    use: live2d-widget-model-haruto
-  display:
-    position: left
-    width: 50
-    height: 100
-    hOffset: 0
-    vOffset: -20
-  mobile:
-    show: true
 
 
 
