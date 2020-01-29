@@ -119,8 +119,3 @@ douban:
     quote: 'This is my game quote'
   timeout: 10000 
 
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
